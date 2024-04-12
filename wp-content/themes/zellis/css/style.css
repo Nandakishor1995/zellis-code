@@ -1,0 +1,335 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: ui-monospace;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+h4 {font-weight: 500;
+    text-transform: uppercase;}
+.top-bar {
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+}
+p.topbar-content {
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+a.nav-link {
+    color: #fff !important;
+    font-size: 18px !important;
+    padding: 10px 25px 10px 25px !important;
+    text-transform: uppercase;
+}
+nav.navbar {
+    background: #ce0201 !important;
+    color: #fff !important;
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+}
+.navbar-brand img {
+    width: 200px;
+}
+img.right-image {
+    width: 100px;
+}
+
+.hero {
+    background: rgb(254,98,0);
+    background: radial-gradient(circle, rgba(254,98,0,1) 41%, rgba(255,210,0,1) 98%);
+    background-size: cover;
+    background-position: center;
+    min-height: 500px; 
+  }
+  
+  .hero p {
+    color: rgba(255, 255, 255, 0.8); 
+  }
+  .col-md-7.text-white {
+    margin: 40px 0px;
+}
+h1.hero-title {
+    font-size: 72px !important;
+    text-transform: uppercase;
+    color: #000;
+}
+a.btn.btn-primary.hero-button {
+    background: #ce0201;
+    border: none;
+    font-size: 24px;
+    padding: 10px 60px;
+    border-radius: 0px;
+}
+
+.contentrow {
+    background: #ce0201;
+    text-align: center;
+}
+h2.content-heading {
+    font-size: 36px;
+    text-transform: uppercase;
+    margin: 25px;
+    color: #fff;
+}
+.content-col-section img {
+    width: 150px !important;
+}
+.content-col-section h2{
+    text-transform: none;
+}
+.content-section, content-col-section{
+ padding: 30px;
+}
+.content-col-section {
+    padding-bottom: 40px !important;
+}
+.nutritionfacts .row{
+    padding: 30px 10px;
+}
+.nutritionfacts h2{
+    font-size: 36px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.nutritionfacts h5{
+    font-size: 25px;
+    
+}
+img.makers {
+    padding-top: 30px;
+    width: 180px;
+}
+
+footer.bg-dark{
+    background: #ce0201 !important;
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+}
+.products img {
+    width: 100%;
+}
+.copyright-footer {
+    background: #07293a;
+    color: #fff;
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+}
+.copyright-footer p {
+    margin-top: 10px;
+    padding: 5px;
+}
+footer h5 {
+    font-weight: 800;
+    color: #fff !important;
+    font-size: 26px;
+}
+footer a {
+    color: #000;
+    text-decoration: none;
+}
+.newsletter-subscribe h5{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 25px !important;
+}
+.newsletter-subscribe .btn{
+    font-size: 20px;
+    padding: 15px 50px;
+    background: #010101;
+}
+a.btn.btn-primary.btn-floating {
+    background: #000;
+    font-size: 29px;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+}
+.social-media {
+    text-align: right;
+    margin-top: 30px;
+}
+section.container-fluid.products {
+    background: rgb(195, 219, 222);
+    background: linear-gradient(90deg, rgba(195, 219, 222, 1) 41%, rgba(255, 255, 255, 1) 98%);
+}
+.shop-title {
+    text-align: center;
+    padding: 25px 10px;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+h3.sub-title {
+    text-align: center;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+.short-description{
+    border: 3px solid #002A3A;
+        margin: 0 auto 10px;
+        width: 80%;
+    }
+    .short-description .number{
+    width: 20%;
+        background-color: transparent;
+        vertical-align: middle;
+        border: none;
+        padding: 4px 0 4px 10px;
+        text-align: center;
+    }
+    .short-content{
+    width: 75%;
+        vertical-align: middle;
+        display: inline-block;
+        padding-top: 6px;
+        padding-bottom: 0;
+        padding-left: 20px;
+        border-left: 3px solid #000000;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        color: #505152;
+        height: 34px;
+    
+    }
+    .products .col{text-align: center;}
+    .float-right {
+        float: right !important;
+    }
+    .float-left {
+        float: left !important;
+    }
+    @media only screen and (max-width: 768px) {
+
+        nav.navbar {
+            padding-left: 0rem !important;
+            padding-right: 0rem !important;
+        }
+        
+        .top-bar {
+            padding-left: 0rem !important;
+            padding-right: 0rem !important;
+        }
+        
+        p.topbar-content {
+            font-size: 12px;
+        }
+        
+        h1.hero-title {
+            font-size: 24px !important;
+        }
+        a.btn.btn-primary.hero-button {
+               font-size: 16px;
+            padding: 10px 40px;
+        }
+        
+        .content-section, content-col-section {
+            padding: 0px;
+        }
+        h2.content-heading {
+                margin: 5px;
+        }
+        .nutritionfacts h2 {
+            font-size: 24px;
+        }
+        .nutritionfacts h5 {
+            font-size: 18px;
+        }
+        .col-md-3 {
+            margin-bottom: 15px;
+        }
+        footer.bg-dark {
+                padding-left: 0rem !important;
+            padding-right: 0rem !important;
+        }
+        footer h5 {
+            font-weight: 600;
+            color: #fff !important;
+            font-size: 24px;
+        }
+        .newsletter-subscribe h5 {
+                font-size: 18px;
+            
+            
+            margin-bottom: 18px !important;
+        }
+        .newsletter-subscribe .btn {
+            font-size: 14px;
+            padding: 15px 30px;
+            
+        }
+        a.btn.btn-primary.btn-floating {
+                font-size: 16px;
+            padding: 10px;
+           }
+        
+           h2.content-heading {
+            font-size: 16px;}
+        }
+.carousel-caption.d-none.d-md-block {
+            left: 3% !important;
+            right: 3% !important;
+        }
+
+        .carousel-caption .col-sm-7 {
+            line-height: 1.5;
+            display: inline-block;
+            vertical-align: middle;
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            transform: translate(70%, -40%);
+            text-align: left;
+        }
+        .carousel-caption .col-sm-5 img {
+            width: 70%;
+        }
+
+        .carousel-caption h3 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.carousel-caption p{
+    font-size: 26px;
+}
+.carousel-indicators [data-bs-target] {
+    
+    width: 20px;
+    height: 20px;
+    border-radius: 20px !important;
+    border:none;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: none !important;}
+.noptin-form-header {
+       display: none !important;
+}
+input#email66183a6e5c281 {
+    background: #fff !important;
+    height: 70px;
+   }
+form.noptin-optin-form.noptin-form-single-line {
+    margin-top: -15px;
+}
+.product-title{
+color:#000;
+text-decoration: none !important;
+}
+.product-link{
+    text-decoration: none !important;
+}
+.product-info{
+    text-align: center !important;
+}
